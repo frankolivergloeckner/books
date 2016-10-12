@@ -1,0 +1,574 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Traffic Light · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-youtubex/player.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="implement_sound.html" />
+    
+    
+    <link rel="prev" href="traffic_counter.html" />
+    
+
+    </head>
+    <body>
+        
+  <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
+  
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Getting started</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../getting_started/arduino_board.html">
+            
+                <a href="../getting_started/arduino_board.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    Arduino / Genuino
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../getting_started/software_installation.html">
+            
+                <a href="../getting_started/software_installation.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    Software Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../getting_started/arduino_ide.html">
+            
+                <a href="../getting_started/arduino_ide.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    Arduino IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Basics</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Projects</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="eco_station/">
+            
+                <a href="eco_station/">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    DIY Eco Station
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="eco_station/experiments_with_light.html">
+            
+                <a href="eco_station/experiments_with_light.html">
+            
+                    
+                        <b>4.1.1.</b>
+                    
+                    Experiments with light
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="traffic_counter.html">
+            
+                <a href="traffic_counter.html">
+            
+                    
+                        <b>4.2.</b>
+                    
+                    Traffic Counter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.3" data-path="traffic_light.html">
+            
+                <a href="traffic_light.html">
+            
+                    
+                        <b>4.3.</b>
+                    
+                    Traffic Light
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="implement_sound.html">
+            
+                <a href="implement_sound.html">
+            
+                    
+                        <b>4.4.</b>
+                    
+                    Let's implement sound!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../community_projects/">
+            
+                <a href="../community_projects/">
+            
+                    
+                        <b>4.5.</b>
+                    
+                    Community Projects
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.5.1" data-path="../community_projects/Tutorial_ArduinoWeatherStation.html">
+            
+                <a href="../community_projects/Tutorial_ArduinoWeatherStation.html">
+            
+                    
+                        <b>4.5.1.</b>
+                    
+                    Mobile Sensor Logger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5.2" data-path="../community_projects/Tutorial_HeatmapCampusDiepenbeek.html">
+            
+                <a href="../community_projects/Tutorial_HeatmapCampusDiepenbeek.html">
+            
+                    
+                        <b>4.5.2.</b>
+                    
+                    Heatmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Appendix</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../contributing.html">
+            
+                <a href="../contributing.html">
+            
+                    
+                        <b>5.1.</b>
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../downloads.html">
+            
+                <a href="../downloads.html">
+            
+                    
+                        <b>5.2.</b>
+                    
+                    Downloads
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Traffic Light</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="traffic-light">Traffic light</h1>
+<h2 id="goal">Goal</h2>
+<p>We will simulate a traffic light which will be startable from a button.</p>
+<h2 id="materials">Materials</h2>
+<h4 id="from-sensebox-edu">From senseBox: edu</h4>
+<ul>
+<li>Arduino Uno with Breadboard</li>
+<li>Red LED</li>
+<li>Yellow LED</li>
+<li>Green LED</li>
+<li>3x 470&#x3A9; resistor</li>
+<li>button</li>
+<li>10k&#x3A9; resistor</li>
+</ul>
+<h2 id="setup-description">Setup Description</h2>
+<h4 id="hardware-configuration">Hardware configuration</h4>
+<p>! [Ampel-button-wiring diagram] (<a href="https://raw.githubusercontent.com/sensebox/resources/master/images/edu/ampel_button_schaltplan.png" target="_blank">https://raw.githubusercontent.com/sensebox/resources/master/images/edu/ampel_button_schaltplan.png</a>)</p>
+<h4 id="software-sketch">Software Sketch</h4>
+<p><code>` </code>Arduino
+int red = 13;
+int yellow = 12;
+int green = 11;</p>
+<p>int button = 8;</p>
+<p>void setup () {
+  pinMode (red, OUTPUT);
+  pinMode (yellow, OUTPUT);
+  pinMode (green, OUTPUT);</p>
+<p>  pinMode (button, INPUT);</p>
+<p>  // set of traffic lights first to RED
+  digitalWrite (red, HIGH);
+  digitalWrite (yellow, LOW);
+  digitalWrite (green, LOW);
+}</p>
+<p>void loop () {</p>
+<p>  // Check if button is pressed
+  if (digitalRead (button) == HIGH) {</p>
+<pre><code>delay (5000);
+
+// RED to GREEN
+digitalWrite (red, HIGH);
+digitalWrite (yellow, HIGH);
+digitalWrite (green, LOW);
+
+delay (1000);
+
+digitalWrite (red, LOW);
+digitalWrite (yellow, LOW);
+digitalWrite (green, HIGH);
+
+delay (5000);
+
+
+// GREEN to RED
+digitalWrite (red, LOW);
+digitalWrite (yellow, HIGH);
+digitalWrite (green, LOW);
+
+delay (1000);
+
+
+digitalWrite (red, HIGH);
+digitalWrite (yellow, LOW);
+digitalWrite (green, LOW);
+</code></pre><p>  }
+}</p>
+<p><code>` </code></p>
+<ul>
+<li>At the beginning of the <code>loop ()</code> -function we check if the start button is pressed.</li>
+<li><code>DigitalRead (button)</code> reads the current state of the button.</li>
+</ul>
+<p><div id="page-footer"><hr><p><span style="color: #666; font-size: 85%;">
+    Made with &#x2665; by the senseBox team at <a href="https://www.uni-muenster.de/Geoinformatics/en/" target="_blank">ifgi</a>, WWU M&#xFC;nster
+</span>
+<span style="color: #666; font-size: 85%; float: right; align: center;">
+    All content is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+    <img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" align="center">
+</span></p>
+</div></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="traffic_counter.html" class="navigation navigation-prev " aria-label="Previous page: Traffic Counter">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="implement_sound.html" class="navigation navigation-next " aria-label="Next page: Let's implement sound!">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Traffic Light","level":"4.3","depth":1,"next":{"title":"Let's implement sound!","level":"4.4","depth":1,"path":"projects/implement_sound.md","ref":"projects/implement_sound.md","articles":[]},"previous":{"title":"Traffic Counter","level":"4.2","depth":1,"path":"projects/traffic_counter.md","ref":"projects/traffic_counter.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"localized-footer":{"filename":"FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":{"en":"Edit This Page","de":"Seite bearbeiten"},"base":"https://github.com/sensebox/books/tree/master/edu"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"projects/traffic_light.md","mtime":"2016-10-12T19:05:08.134Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-12T19:06:32.857Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-scramble-mailto/scramble-mailto.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-youtubex/player.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
